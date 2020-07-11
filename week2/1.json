@@ -1,0 +1,53 @@
+{
+    "_id": 1,
+    "first_name": "John",
+    "last_name": "Nesbitt",
+    "date_of_birth": "02-01-1955",
+    "user_name": "mrgoodguy123",
+    "invoices": [
+      {
+        "_id": 101,
+        "date_created": "02-01-2020",
+        "date_shipped": "02-02-2020",
+        "subtotal": {},
+        "tax": {},
+        "total": {},
+        "items": [
+          {
+            "_id": "8764",
+            "name": "HDMI wall plate",
+            "price": "8.50",
+            "quantity": "10"
+          },
+          {
+            "_id": "8764",
+            "name": "Screw driver tool",
+            "price": "10.50",
+            "quantity": "11"
+          }
+        ]
+      },
+      {
+        "_id": 205,
+        "date_created": "05-01-2020",
+        "date_shipped": "05-02-2020",
+        "subtotal": {},
+        "tax": {},
+        "total": {},
+        "items": [
+          {
+            "_id": "99999",
+            "name": "Cat6 wall plate",
+            "price": "12.50",
+            "quantity": "2"
+          },
+          {
+            "_id": "85464",
+            "name": "Punch down tool",
+            "price": "2.50",
+            "quantity": "5"
+          }
+        ]
+      }
+    ]
+  }
