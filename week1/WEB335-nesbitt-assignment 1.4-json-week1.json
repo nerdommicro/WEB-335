@@ -1,0 +1,35 @@
+{
+  "users": [
+    {
+      "name": "Michelle",
+      "role": [
+        "Network Administrator",
+        "Programmer"
+      ],
+      "birthDate": "1977-01-02",
+      "dependents": ""
+    },
+    {
+      "name": "Joe",
+      "role": [
+        "Shipping",
+        "Receiving"
+      ],
+      "birthDate": "1978-03-12",
+      "dependents": [
+        "Alaiya",
+        "Amaiya",
+        "Ataiya"
+      ]
+    },
+    {
+      "name": "Steve",
+      "role": [
+        "Technical Support", 
+      "Administrator"
+    ],
+      "birthDate": "1975-08-22",
+      "dependents": ""
+    }
+  ]
+}
