@@ -1,0 +1,28 @@
+{
+    "book": [
+      {
+        "book_isbn": "0765426413123",
+        "book_name": "Mongo DB",
+        "book_price": "14.99",
+        "authors": [
+          {
+            "author_email": "mn@wiley.com",
+            "author_phone": "6789876543",
+            "author_first_name": "Maria",
+            "author_last_name": "Jones"
+          },
+          {
+            "author_email": "jh@domain.com",
+            "author_phone": "4089871542",
+            "author_first_name": "James",
+            "author_last_name": "Hansen"
+          }
+        ],
+        "publishers": {
+          "publisher_code": "1234",
+          "publisher_name": "Wiley",
+          "publisher_address": "456 Main St, Bellevue, WA 11234"
+        }
+      }
+    ]
+  }
