@@ -1,0 +1,54 @@
+{
+    "users": [
+      {
+        "_id": 101,
+        "first_name": "Michelle",
+        "last_name": "Thomas",
+        "roles": [
+          {
+            "_id": 2,
+            "name": "User",
+            "permission": [
+              {
+                "_id": "1",
+                "name": "READ"
+              },
+              {
+                "_id": "2",
+                "name": "UPDATE"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_id": 100,
+        "first_name": "Joseph",
+        "last_name": "Thomas",
+        "roles": [
+          {
+            "_id": 1,
+            "name": "Administrator",
+            "permission": [
+              {
+                "_id": "1",
+                "name": "READ"
+              },
+              {
+                "_id": "2",
+                "name": "UPDATE"
+              },
+              {
+                "_id": "3",
+                "name": "CREATE"
+              },
+              {
+                "_id": "4",
+                "name": "DELETE"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
