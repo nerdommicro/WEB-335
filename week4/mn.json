@@ -1,0 +1,6 @@
+user = {   
+    "first_name": "Johan",   
+    "last__name": "Bach",   
+    "employee_id": "0011223",   
+    "email": "jbach@me.com",   
+    "date_created": new Date() }
