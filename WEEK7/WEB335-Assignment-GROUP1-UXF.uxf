@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>80</x>
+      <y>480</y>
+      <w>210</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>USER
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>440</x>
+      <y>50</y>
+      <w>210</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>MEMBERSHIP-LEVEL
+--</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>440</x>
+      <y>270</y>
+      <w>210</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>PERMISSIONS(FEATURES)
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>460</x>
+      <y>480</y>
+      <w>210</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>SHOWS(PRODUCTS)
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>70</x>
+      <y>50</y>
+      <w>210</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>USER
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>70</x>
+      <y>270</y>
+      <w>210</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>MEMBERSHIP-LEVEL
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>270</x>
+      <y>70</y>
+      <w>190</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=1.1
+m2=1.1
+HAS one &gt;</panel_attributes>
+    <additional_attributes>10.0;20.0;170.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>270</x>
+      <y>290</y>
+      <w>190</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=1.1
+m2=1.*
+HAS MANY &gt;</panel_attributes>
+    <additional_attributes>10.0;20.0;170.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>280</x>
+      <y>510</y>
+      <w>200</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=1.1
+m2=1.*
+CAN ACCESS MANY &gt;</panel_attributes>
+    <additional_attributes>10.0;20.0;180.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>80</x>
+      <y>620</y>
+      <w>210</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>SHOW/MOVIE
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>280</x>
+      <y>640</y>
+      <w>190</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=1.1
+m2=1.1
+HAS ONE &gt;</panel_attributes>
+    <additional_attributes>10.0;20.0;170.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>450</x>
+      <y>620</y>
+      <w>210</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>CATEGORY/TYPE
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>
